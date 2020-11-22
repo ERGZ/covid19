@@ -1,4 +1,7 @@
 library(tidyverse)
+library(ggthemes)
+
+theme_set(theme_fivethirtyeight)
 
 testing <- read_csv("data/statewide_testing.csv")
 cases <- read_csv("data/statewide_cases.csv")
